@@ -20,6 +20,13 @@
 		</form>
 
 		<script type="text/javascript" src="./script.js">
+			 
+        function removeColor() {
+            let select = document.getElementById("colorSelect");
+            if (select.selectedIndex !== -1) {
+                select.remove(select.selectedIndex);
+            }
+        }
 		</script>
 
 	</body>
